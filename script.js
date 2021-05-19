@@ -47,6 +47,7 @@ specialFontChange();
 const removeChicago = function(){
   let removeRace = document.getElementById('past-races');
   removeRace.removeChild(removeRace.childNodes[7]);
+  console.log(document.getElementById('past-races').childNodes);
 }
 removeChicago();
   // Part 6
@@ -58,10 +59,15 @@ const addPastRace = function() {
 }
 addPastRace();
   // Part 7
-
-
+// const addBlogPost = function(){
+//   let newDiv = document.createElement('div.blog-post');
+//   div.appendChild('newDiv');
+//   let newH1 = document.createElement('h1');
+//   h1.appendChild(document.createTextNode('hello'));
+// }
+// addBlogPost();//really hard time with this one
   // Part 8
-
+document.querySelector('#quote-of-the-day').addEventListener('click', randomQuote);
 
   // Part 9
 
