@@ -70,7 +70,12 @@ addPastRace();
 document.querySelector('#quote-of-the-day').addEventListener('click', randomQuote);
 
   // Part 9
-
+  const toggleFunc = function(){
+    let togglePurple = document.querySelectorAll('.purple');
+    togglePurple.toggle();
+  }
+document.querySelectorAll('.blog-post').addEventListener('mouseout', toggleFunc);
+//can't tell if im on the right path here
 
 
 
