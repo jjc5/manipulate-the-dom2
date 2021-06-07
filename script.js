@@ -67,14 +67,17 @@ addPastRace();
 // }
 // addBlogPost();//really hard time with this one
   // Part 8
-document.querySelector('#quote-of-the-day').addEventListener('click', randomQuote);
+document.querySelector('#quote-title').addEventListener('click', randomQuote);
 
   // Part 9
-  const toggleFunc = function(){
-    let togglePurple = document.querySelectorAll('.purple');
-    togglePurple.toggle();
-  }
-document.querySelectorAll('.blog-post').addEventListener('mouseout', toggleFunc);
+// const changeToRed = function(){
+//   document.querySelector('.purple').style.backgroundColor = 'red';
+// }
+// const changeToPurple = function(){
+//   document.querySelector('.purple').style.backgroundColor = 'rebeccapurple';
+// }
+// document.querySelector('.purple').addEventListener('mouseenter', changeToRed);
+// document.querySelector('.purple').addEventListener('mouseout', changeToPurple);
 //can't tell if im on the right path here
 
 

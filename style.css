@@ -59,7 +59,9 @@ ul {
 .purple {
   background-color: rebeccapurple;
 }
-
+.purple:hover{
+  background-color: #A00;
+}
 .red {
   background-color: #A00;
 }
